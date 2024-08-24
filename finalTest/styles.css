@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container {
+    /* text-align: center;
+    margin: auto; */
+}
+
+div.boxItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    gap: 20px;
+}
+
+div.boxItem img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 1px ;
+}
+
+div.box1 button {
+    margin-top: 20px;
+    width: 100px;
+    height: 60px;
+    background-color: rgb(129, 209, 129);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 70%;
+    border-radius: 15px;
+    border: none;
+}
+
+div.boxList2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 7%;
+
+}
+
+div.boxItem2 img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 1px ;
+    border: none;
+}
+
+div.boxItem2 {
+    border: 1px solid black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+div.boxItem2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+div.boxItem2 p {
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+div.box2 button {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(129, 209, 129);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 75%;
+    border-radius: 15px;
+    border: none;
+    margin-top: -40px;
+}
+
+div.notification p {
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+div.notifi {
+    margin-left: 16%;
+    padding-top: 20px;
+}
